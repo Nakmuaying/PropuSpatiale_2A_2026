@@ -1,4 +1,4 @@
-const CACHE = "quiz-propulsion-spatiale-2a-42fabba5d4";
+const CACHE = "quiz-propulsion-spatiale-2a-adc8122261";
 const FILES = ["./", "index.html", "manifest.webmanifest", "icon.svg"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)).then(() => self.skipWaiting()));
